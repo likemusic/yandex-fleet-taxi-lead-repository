@@ -1,6 +1,6 @@
 <?php
 
-namespace Likemusic\YandexFleetTaxi\Contract\LeadRepository;
+namespace Likemusic\YandexFleetTaxi\LeadRepository\Contract;
 
 interface LeadRepositoryInterface
 {
