@@ -1,0 +1,20 @@
+{
+  "name": "likemusic/yandex-fleet-taxi-lead-repository",
+  "description": "Base interfaces for lead repository.",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "require": {
+    "php": "^7.3"
+  },
+  "authors": [
+    {
+      "name": "Valerij Ivashchenko",
+      "email": "likemusicdev@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Likemusic\\YandexFleetTaxi\\LeadRepository\\": "src/"
+    }
+  }
+}
