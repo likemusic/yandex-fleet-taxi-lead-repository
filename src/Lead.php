@@ -1,6 +1,6 @@
 <?php
 
-use Likemusic\YandexFleetTaxi\LeadRepository\Contract\LeadInterface;
+namespace Likemusic\YandexFleetTaxi\LeadRepository\Contract;
 
 class Lead implements LeadInterface
 {
@@ -13,16 +13,6 @@ class Lead implements LeadInterface
         return $this->id;
     }
 
-    public function getDriverPostData(): array
-    {
-        return $this->driverPostData;
-    }
-
-    public function getCarPostData(): array
-    {
-        return $this->carPostData;
-    }
-
     public function setId(string $id): self
     {
         $this->id = $id;
@@ -30,11 +20,21 @@ class Lead implements LeadInterface
         return $this;
     }
 
+    public function getDriverPostData(): array
+    {
+        return $this->driverPostData;
+    }
+
     public function setDriverPostData(array $driverPostData): self
     {
         $this->driverPostData = $driverPostData;
 
         return $this;
+    }
+
+    public function getCarPostData(): array
+    {
+        return $this->carPostData;
     }
 
     public function setCarPostData(array $carPostData): self
