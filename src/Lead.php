@@ -1,6 +1,8 @@
 <?php
 
-namespace Likemusic\YandexFleetTaxi\LeadRepository\Contract;
+namespace Likemusic\YandexFleetTaxi\LeadRepository;
+
+use Likemusic\YandexFleetTaxi\LeadRepository\Contract\LeadInterface;
 
 class Lead implements LeadInterface
 {
